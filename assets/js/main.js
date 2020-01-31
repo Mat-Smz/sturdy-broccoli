@@ -4,6 +4,8 @@
 //   });
 // });
 
+// Git push for Pleasur
+
 const switchModal = () => {
   console.log("openModal");
   document.querySelector(".modal").classList.toggle("hidden");
