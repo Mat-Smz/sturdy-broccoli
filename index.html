@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TripAdvisor</title>
+    <link rel="stylesheet" href="/assets/css/icons.css" />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="/assets/js/main.js"></script>
+  </head>
+  <body>
+    <header class="d-flex">
+      <div class="container">
+        <i class="icon-medium icon-menu-bars visible-xs"></i>
+        <img src="/assets/img/TA_logo_primary.svg" alt="Logo TripAdvisor" />
+        <i class="icon-medium icon-search visible-xs"></i>
+        <ul class="hidden-xs">
+          <li>
+            <a href="#">
+              <i class="icon-medium icon-plus-c"></i>
+              <span class="hidden-sm">Publier</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-medium icon-heart"></i>
+              <span class="hidden-sm">Voyages</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-medium icon-comments"></i>
+              <span class="hidden-sm">Messages</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i
+                class="icon-medium icon-friend
+              "
+              ></i>
+              <span class="hidden-sm">Profil</span>
+            </a>
+          </li>
+          <li>
+            <button class="btn" id="btn3" onclick="switchModal()">
+              s'inscrire
+            </button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <menu style="background-image: url('/assets/img/paris.jpg');">
+      <div class="breadcrumbs hidden-xs">
+        <div class="container d-flex space-between">
+          <ul>
+            <li>
+              <a href="#">Europe</a
+              ><i class="icon-micro icon-single-chevron-right"></i>
+            </li>
+            <li>
+              <a href="#">France</a
+              ><i class="icon-micro icon-single-chevron-right"></i>
+            </li>
+            <li>
+              <a href="#">Île-de-France</a
+              ><i class="icon-micro icon-single-chevron-right"></i>
+            </li>
+            <li>
+              <a href="#">Paris</a><i class="icon-micro icon-caret-down"></i>
+            </li>
+          </ul>
+          <div>Visiter : <a href="#">Paris</a></div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center">
+        <h1>Paris<i class="icon-large icon-single-chevron-down"></i></h1>
+        <div class="reset-location">
+          <i class="icon-times"></i>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <i class="icon-large icon-hotels shrink"></i>
+              <span>Hôtels</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-large icon-attractions shrink"></i>
+              <span>Activités</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-large icon-restaurants shrink"></i>
+              <span>Restaurants</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-large icon-flights shrink"></i>
+              <span>Vols</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-large icon-vacation-rentals shrink"></i>
+              <span>Locations <br class="hidden-xs" />vacances</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-large icon-cruises shrink"></i>
+              <span>Croisières</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="icon-large icon-more-horizontal shrink"></i>
+              <span class="hidden-xs">Plus </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </menu>
+    <main class="container">
+      <aside>
+        <div class="unlock">
+          <img
+            src="/assets/img/Avatar_stock_PNG_v3 (1).png"
+            alt="Avatar TripAdvisor"
+          />
+          <h3 class="text-center">Débloquez le meilleur de Tripadvisor</h3>
+          <ul>
+            <li>
+              <div class="bullet">&bull;</div>
+              <p>
+                Enregistrez vos idées de voyage préférées et affichez-les sur
+                une carte
+              </p>
+            </li>
+            <li>
+              <div class="bullet">&bull;</div>
+              <p>
+                Recevez des alertes de prix et des offres pour voyager à votre
+                manière
+              </p>
+            </li>
+            <li>
+              <div class="bullet">&bull;</div>
+              <p>
+                Posez des questions et obtenez des réponses de la part de
+                voyageurs tels que vous
+              </p>
+            </li>
+          </ul>
+          <button class="btn" id="btn3" onclick="switchModal()">
+            s'inscrire
+          </button>
+        </div>
+      </aside>
+      <div>
+        <section>
+          <div class="p-25">
+            <h2>Paris, France</h2>
+            <p>
+              Déguster un pain au chocolat à la terrasse d'un café, se délasser
+              après une journée de balade sur les quais de la Seine,
+              s'émerveiller devant des lieux symboliques comme la Tour Eiffel ou
+              l'Arc de triomphe… Un séjour à Paris réussi conjugue activités et
+              détente, tout en prenant le temps de savourer un bon repas tout
+              comme les célèbres expositions
+            </p>
+          </div>
+          <div class="gallery">
+            <div
+              style="background-image: url('/assets/img/comedie-tour-eiffel.jpg');"
+            ></div>
+            <div
+              style="background-image: url('/assets/img/jardines-de-luxemburgo.jpg');"
+            ></div>
+            <div
+              style="background-image: url('/assets/img/paris (1).jpg');"
+            ></div>
+            <div style="background-image: url('/assets/img/photo0jpg.jpg');">
+              <div>+ 2 151 864</div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="p-25">
+            <h2>Découvrez le meilleur de Paris</h2>
+            <div class="submenu">
+              <a href="#">Meilleures activités à Paris </a>
+              <a href="#">Tout afficher</a>
+            </div>
+            <ul class="slider">
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+              <li>
+                <img src="/assets/img/slider-1.jpg" alt="description" />
+                <div>Notre Dame</div>
+                <div>
+                  <i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-full"></i
+                  ><i class="icon-small icon-bubble-rating-half"></i>
+                  <span>64 254 avis</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <aside>
+        <div class="explore">
+          <h3>Explorez Paris</h3>
+          <img src="/assets/img/tour-eiffel.jpg" alt="Tour Eiffel" />
+          <ul>
+            <li>Hébergements</li>
+            <li><a href="#">Hôtels familiaux</a></li>
+            <li><a href="#">Hôtel 5 étoiles</a></li>
+            <li><a href="#">Hôtels romantique</a></li>
+          </ul>
+          <ul>
+            <li>Hébergements</li>
+            <li><a href="#">Hôtels familiaux</a></li>
+            <li><a href="#">Hôtel 5 étoiles</a></li>
+            <li><a href="#">Hôtels romantique</a></li>
+          </ul>
+          <ul>
+            <li>Hébergements</li>
+            <li><a href="#">Hôtels familiaux</a></li>
+            <li><a href="#">Hôtel 5 étoiles</a></li>
+            <li><a href="#">Hôtels romantique</a></li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+    <div class="modal hidden">
+      <div><i class="icon-large icon-times" onclick="switchModal()"></i></div>
+    </div>
+  </body>
+</html>
